@@ -23,9 +23,9 @@ No installations! Just run it in the browser.
 
 ## Built With
 
-* [HTML](http://www.dropwizard.io/1.0.2/docs/) - Provided structure and content.
-* [CSS](https://maven.apache.org/) - Provided styling.
-* [JavaScript](https://rometools.github.io/rome/) - Provided behavior.
+* [HTML](https://www.w3schools.com/html/default.asp) - Provided structure and content.
+* [CSS](https://www.w3schools.com/css/default.asp) - Provided styling.
+* [JavaScript](https://www.w3schools.com/js/default.asp) - Provided behavior.
 
 ## Contributing
 
