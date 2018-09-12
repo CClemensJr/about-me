@@ -1,6 +1,6 @@
 "use strict";
 
-var questions = ['Do you think I like to wear sweaters?',
+/*var questions = ['Do you think I like to wear sweaters?',
                  'Do you think I like to watch football?',
                  'Do you think I like to #netflixnchill?',
                  'Do you think I am hungry?',
@@ -12,8 +12,8 @@ var score         = 0;
 
 var checkInput = function (input) 
 {
-    if ( (answers[i].toUpperCase() === 'y') || (answers[i].toUpperCase() === 'yes') ||
-         (answers[i].toUpperCase() === 'n') || (answers[i].toUpperCase() === 'no') )
+    if ( (input.toUpperCase() === 'y') || (input.toUpperCase() === 'yes') ||
+         (input.toUpperCase() === 'n') || (input.toUpperCase() === 'no') )
     {
         return correctFormat = true;
     } else {
@@ -46,7 +46,7 @@ for (var i = 0; i < questions.length; i++)
         alert('You answered ' + answers[i] + ' to this question.');
         console.log('The user answered ' + answers[i] + ' to the question "' + questions[i] + '."');
     }*/
-}
+//}
 
 
 

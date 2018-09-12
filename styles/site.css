@@ -1,0 +1,21 @@
+body {
+    background: gainsboro;
+}
+
+header {
+    text-align: center;
+    padding:    50px;
+}
+
+h1 {
+    line-height: 20px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+}
+
