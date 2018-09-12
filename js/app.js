@@ -14,23 +14,23 @@ confirm('You are about to take a test about me. Please use yes or no answers. Do
 
 for (var i = 0; i < questions.length; i++)
 {
-    answers[i] = prompt(questions[i]);
+    answers[i] = prompt(questions[i]).toUpperCase();
 
-    console.log('The user answered ' + answers[i].toUpperCase() + ' to Question ' + (i + 1) + '. ' + questions[i]);
+    console.log('The user answered ' + answers[i] + ' to Question ' + (i + 1) + '. ' + questions[i]);
 
-    if (i === 0 && (answers[0].toUpperCase() === 'Y' || answers[0].toUpperCase === 'YES'))
+    if (i === 0 && (answers[0] === 'Y' || answers[0] === 'YES'))
     {
         score++;
-    } else if (i === 1 && (answers[1].toUpperCase() === 'N' || answers[1].toUpperCase === 'NO'))
+    } else if (i === 1 && (answers[1] === 'N' || answers[1] === 'NO'))
     {
         score++;
-    } else if (i === 2 && (answers[2].toUpperCase() === 'N' || answers[2].toUpperCase === 'NO'))
+    } else if (i === 2 && (answers[2] === 'N' || answers[2] === 'NO'))
     {
         score++;
-    } else if (i === 3 && (answers[3].toUpperCase() === 'Y' || answers[3].toUpperCase === 'YES'))
+    } else if (i === 3 && (answers[3] === 'Y' || answers[3] === 'YES'))
     {
         score++;
-    } else if (i === 4 && (answers[4].toUpperCase() === 'Y' || answers[4].toUpperCase === 'YES'))
+    } else if (i === 4 && (answers[4] === 'Y' || answers[4] === 'YES'))
     {
         score++;
     }
