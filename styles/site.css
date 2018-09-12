@@ -1,7 +1,18 @@
+
+
+
+
+/**
+*** Global Stuff
+*****/
 body {
     background: gainsboro;
 }
 
+
+/**
+*** Header
+*****/
 header {
     background-color: aquamarine;
     color:            navy;
@@ -15,12 +26,43 @@ h1 {
     line-height: 20px;
 }
 
+
+/**
+*** Main
+*****/
 main {
     width:          auto;
     height:         400px;
     padding:        25px 50px 25px 50px;
 }
 
+section {
+    height:             100%;
+
+    background-color: navy;
+    color:            gainsboro;
+
+    padding: 10px 50px 0px 50px;
+}
+
+h3 {
+    color:    orangered;
+    text-align: center;
+    font-size: larger;
+}
+
+li {
+    padding: 10px 0 10px 0;
+}
+
+span {
+    color:     aquamarine;
+    margin-left: 500px;
+}
+
+/**
+*** Footer
+*****/
 footer {
     background-color: orangered;
     line-height:        50px;
